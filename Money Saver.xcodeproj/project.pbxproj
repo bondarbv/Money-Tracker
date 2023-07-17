@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		472390522A65CE8300F68B09 /* Money_SaverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472390512A65CE8300F68B09 /* Money_SaverApp.swift */; };
-		472390542A65CE8300F68B09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472390532A65CE8300F68B09 /* ContentView.swift */; };
+		472390542A65CE8300F68B09 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472390532A65CE8300F68B09 /* MainView.swift */; };
 		472390562A65CE8500F68B09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472390552A65CE8500F68B09 /* Assets.xcassets */; };
 		472390592A65CE8500F68B09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472390582A65CE8500F68B09 /* Preview Assets.xcassets */; };
 		472390602A65CF8100F68B09 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4723905F2A65CF8100F68B09 /* .gitignore */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		4723904E2A65CE8300F68B09 /* Money Saver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Money Saver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		472390512A65CE8300F68B09 /* Money_SaverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money_SaverApp.swift; sourceTree = "<group>"; };
-		472390532A65CE8300F68B09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		472390532A65CE8300F68B09 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		472390552A65CE8500F68B09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		472390582A65CE8500F68B09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4723905F2A65CF8100F68B09 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -53,10 +53,9 @@
 		472390502A65CE8300F68B09 /* Money Saver */ = {
 			isa = PBXGroup;
 			children = (
-				472390512A65CE8300F68B09 /* Money_SaverApp.swift */,
-				472390532A65CE8300F68B09 /* ContentView.swift */,
-				4723905F2A65CF8100F68B09 /* .gitignore */,
-				472390552A65CE8500F68B09 /* Assets.xcassets */,
+				472390632A65D04E00F68B09 /* Modules */,
+				472390622A65D04200F68B09 /* Resources */,
+				472390612A65D03D00F68B09 /* App */,
 				472390572A65CE8500F68B09 /* Preview Content */,
 			);
 			path = "Money Saver";
@@ -68,6 +67,47 @@
 				472390582A65CE8500F68B09 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		472390612A65D03D00F68B09 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				472390512A65CE8300F68B09 /* Money_SaverApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		472390622A65D04200F68B09 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4723905F2A65CF8100F68B09 /* .gitignore */,
+				472390552A65CE8500F68B09 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		472390632A65D04E00F68B09 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				472390652A65D05800F68B09 /* Onboarding */,
+				472390642A65D05300F68B09 /* Main */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		472390642A65D05300F68B09 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				472390532A65CE8300F68B09 /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		472390652A65D05800F68B09 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +181,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				472390542A65CE8300F68B09 /* ContentView.swift in Sources */,
+				472390542A65CE8300F68B09 /* MainView.swift in Sources */,
 				472390522A65CE8300F68B09 /* Money_SaverApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
