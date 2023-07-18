@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct OnboardingScreen: View {
+    @EnvironmentObject var coordinator: Coordinator
     @State var currentIndex = 0
 
     var body: some View {
@@ -39,7 +40,8 @@ struct OnboardingScreen: View {
     func button(isLast: Bool) -> some View {
         Button {
             if isLast {
-                print("Last")
+                coordinator.pushMainScreen()
+                UserDefaults.standard.wasOnboardingScreenShown = true
             } else {
                 withAnimation {
                     currentIndex += 1

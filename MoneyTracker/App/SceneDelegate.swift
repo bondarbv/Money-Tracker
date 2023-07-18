@@ -1,4 +1,4 @@
-import UIKit
+import UIKit.UIScene
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     var window: UIWindow?
@@ -7,10 +7,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         _ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions
     ) {
         guard let windowScene = scene as? UIWindowScene else { return }
-        let screenBuilder = ScreenBuilder()
-        let coordinator = Coordinator(screenBuilder: screenBuilder)
+        let coordinator = Coordinator()
         window = UIWindow(windowScene: windowScene)
-        window?.rootViewController = coordinator.start()
+        window?.rootViewController = coordinator.navigationController
         window?.makeKeyAndVisible()
     }
 }

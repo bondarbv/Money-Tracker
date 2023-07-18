@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		4709CC0D2A66C31C009C3D90 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709CC0C2A66C31C009C3D90 /* Coordinator.swift */; };
-		4709CC102A66C5DB009C3D90 /* ScreenBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709CC0F2A66C5DA009C3D90 /* ScreenBuilder.swift */; };
 		472390542A65CE8300F68B09 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472390532A65CE8300F68B09 /* MainScreen.swift */; };
 		472390562A65CE8500F68B09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472390552A65CE8500F68B09 /* Assets.xcassets */; };
 		472390592A65CE8500F68B09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472390582A65CE8500F68B09 /* Preview Assets.xcassets */; };
 		472390602A65CF8100F68B09 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4723905F2A65CF8100F68B09 /* .gitignore */; };
 		472390672A65D0E200F68B09 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472390662A65D0E200F68B09 /* OnboardingScreen.swift */; };
 		472390692A65D35A00F68B09 /* OnboardingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472390682A65D35A00F68B09 /* OnboardingItem.swift */; };
+		474197322A66FAFD00C43B45 /* UserDefaults+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474197312A66FAFD00C43B45 /* UserDefaults+.swift */; };
 		476014272A6692AD00BFE07F /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476014262A6692AD00BFE07F /* Color+.swift */; };
 		4771E7FA2A66B41A0064EB7A /* LinearGradient+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4771E7F92A66B41A0064EB7A /* LinearGradient+.swift */; };
 		4771E7FF2A66B72F0064EB7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4771E7FE2A66B72F0064EB7A /* AppDelegate.swift */; };
@@ -28,7 +28,6 @@
 
 /* Begin PBXFileReference section */
 		4709CC0C2A66C31C009C3D90 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
-		4709CC0F2A66C5DA009C3D90 /* ScreenBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenBuilder.swift; sourceTree = "<group>"; };
 		4723904E2A65CE8300F68B09 /* MoneyTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		472390532A65CE8300F68B09 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		472390552A65CE8500F68B09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -36,6 +35,7 @@
 		4723905F2A65CF8100F68B09 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		472390662A65D0E200F68B09 /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
 		472390682A65D35A00F68B09 /* OnboardingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingItem.swift; sourceTree = "<group>"; };
+		474197312A66FAFD00C43B45 /* UserDefaults+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+.swift"; sourceTree = "<group>"; };
 		476014262A6692AD00BFE07F /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		4771E7F92A66B41A0064EB7A /* LinearGradient+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinearGradient+.swift"; sourceTree = "<group>"; };
 		4771E7FE2A66B72F0064EB7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				4709CC0C2A66C31C009C3D90 /* Coordinator.swift */,
-				4709CC0F2A66C5DA009C3D90 /* ScreenBuilder.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -157,6 +156,7 @@
 				476014262A6692AD00BFE07F /* Color+.swift */,
 				47837AE12A66A90000067AF5 /* Font+.swift */,
 				4771E7F92A66B41A0064EB7A /* LinearGradient+.swift */,
+				474197312A66FAFD00C43B45 /* UserDefaults+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -249,10 +249,10 @@
 			files = (
 				4771E7FF2A66B72F0064EB7A /* AppDelegate.swift in Sources */,
 				472390542A65CE8300F68B09 /* MainScreen.swift in Sources */,
+				474197322A66FAFD00C43B45 /* UserDefaults+.swift in Sources */,
 				4771E8012A66B8230064EB7A /* SceneDelegate.swift in Sources */,
 				476014272A6692AD00BFE07F /* Color+.swift in Sources */,
 				47837AE22A66A90000067AF5 /* Font+.swift in Sources */,
-				4709CC102A66C5DB009C3D90 /* ScreenBuilder.swift in Sources */,
 				472390692A65D35A00F68B09 /* OnboardingItem.swift in Sources */,
 				472390672A65D0E200F68B09 /* OnboardingScreen.swift in Sources */,
 				4771E7FA2A66B41A0064EB7A /* LinearGradient+.swift in Sources */,

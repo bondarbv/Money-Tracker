@@ -1,6 +1,8 @@
 import SwiftUI
 
 struct MainScreen: View {
+    @EnvironmentObject var coordinator: Coordinator
+
     var body: some View {
         VStack {
             Image(systemName: "globe")
