@@ -12,7 +12,7 @@ struct OnboardingScreen: View {
         }
         .tabViewStyle(.page(indexDisplayMode: .never))
         .edgesIgnoringSafeArea(.vertical)
-        .onAppear{
+        .onAppear {
             UIScrollView.appearance().bounces = false
         }
     }
@@ -33,7 +33,7 @@ struct OnboardingScreen: View {
         }
         .padding(.horizontal, 20)
         .padding(.bottom, 32)
-        .background(Color.onboardingBackground)
+        .background(LinearGradient.onboardingBackground)
     }
 
     func button(isLast: Bool) -> some View {
@@ -49,7 +49,7 @@ struct OnboardingScreen: View {
             RoundedRectangle(cornerRadius: 10)
                 .fill(Color.onboardingButton)
                 .frame(height: 50)
-                .shadow(radius: 5, y: 10)
+                .shadow(radius: 10, y: 10)
                 .overlay {
                     Text(isLast ? "Start" : "Continue")
                         .font(.openSansSemiBold())
