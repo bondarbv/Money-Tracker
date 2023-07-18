@@ -37,7 +37,7 @@ struct OnboardingScreen: View {
         }
         .padding(.horizontal, 20)
         .padding(.bottom, 32)
-        .background(LinearGradient.onboardingBackground)
+        .background(LinearGradient.background)
     }
 
     func button(isLast: Bool) -> some View {

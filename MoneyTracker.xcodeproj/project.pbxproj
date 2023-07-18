@@ -15,6 +15,7 @@
 		472390672A65D0E200F68B09 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472390662A65D0E200F68B09 /* OnboardingScreen.swift */; };
 		472390692A65D35A00F68B09 /* OnboardingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472390682A65D35A00F68B09 /* OnboardingItem.swift */; };
 		474197322A66FAFD00C43B45 /* UserDefaults+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474197312A66FAFD00C43B45 /* UserDefaults+.swift */; };
+		474197352A670E3E00C43B45 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474197342A670E3D00C43B45 /* Transaction.swift */; };
 		476014272A6692AD00BFE07F /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476014262A6692AD00BFE07F /* Color+.swift */; };
 		4771E7FA2A66B41A0064EB7A /* LinearGradient+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4771E7F92A66B41A0064EB7A /* LinearGradient+.swift */; };
 		4771E7FF2A66B72F0064EB7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4771E7FE2A66B72F0064EB7A /* AppDelegate.swift */; };
@@ -36,6 +37,7 @@
 		472390662A65D0E200F68B09 /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
 		472390682A65D35A00F68B09 /* OnboardingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingItem.swift; sourceTree = "<group>"; };
 		474197312A66FAFD00C43B45 /* UserDefaults+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+.swift"; sourceTree = "<group>"; };
+		474197342A670E3D00C43B45 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		476014262A6692AD00BFE07F /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		4771E7F92A66B41A0064EB7A /* LinearGradient+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinearGradient+.swift"; sourceTree = "<group>"; };
 		4771E7FE2A66B72F0064EB7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 		472390502A65CE8300F68B09 /* MoneyTracker */ = {
 			isa = PBXGroup;
 			children = (
+				474197332A670E1A00C43B45 /* Models */,
 				4709CC0B2A66C312009C3D90 /* Navigation */,
 				476014252A66929F00BFE07F /* Extensions */,
 				472390632A65D04E00F68B09 /* Modules */,
@@ -148,6 +151,14 @@
 				472390682A65D35A00F68B09 /* OnboardingItem.swift */,
 			);
 			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		474197332A670E1A00C43B45 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				474197342A670E3D00C43B45 /* Transaction.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		476014252A66929F00BFE07F /* Extensions */ = {
@@ -247,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				474197352A670E3E00C43B45 /* Transaction.swift in Sources */,
 				4771E7FF2A66B72F0064EB7A /* AppDelegate.swift in Sources */,
 				472390542A65CE8300F68B09 /* MainScreen.swift in Sources */,
 				474197322A66FAFD00C43B45 /* UserDefaults+.swift in Sources */,

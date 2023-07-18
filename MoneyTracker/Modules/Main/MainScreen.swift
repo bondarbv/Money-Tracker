@@ -2,15 +2,15 @@ import SwiftUI
 
 struct MainScreen: View {
     @EnvironmentObject var coordinator: Coordinator
+    var transactions: [Transaction] = [Transaction(amount: 100, type: .income, category: .health, date: Date(), note: "Note")]
 
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        VStack(spacing: 0) {
+            ForEach(transactions) { transaction in
+                Text(transaction.note)
+            }
         }
-        .padding()
+        .background(LinearGradient.background)
     }
 }
 
