@@ -1,9 +1,10 @@
 import Foundation
 
-struct OnboardingItem: Identifiable {
-    let id = UUID()
+struct OnboardingItem {
+    let index: Int
     let title: String
     let subtitle: String
+    let isLast: Bool
 }
 
 extension OnboardingItem {
@@ -11,7 +12,13 @@ extension OnboardingItem {
 }
 
 extension OnboardingItem {
-    static let firstPage =  OnboardingItem(title: "first", subtitle: "first")
-    static let secondPage =  OnboardingItem(title: "second", subtitle: "second")
-    static let thirdPage =  OnboardingItem(title: "third", subtitle: "third")
+    static let firstPage =  OnboardingItem(
+        index: 0, title: "First title", subtitle: "First subtitle First subtitle First subtitle", isLast: false
+    )
+    static let secondPage =  OnboardingItem(
+        index: 1, title: "Second title", subtitle: "Second subtitle Second subtitle Second subtitle", isLast: false
+    )
+    static let thirdPage =  OnboardingItem(
+        index: 2, title: "Third subtitle", subtitle: "Third subtitle Third subtitle Third subtitle", isLast: true
+    )
 }
