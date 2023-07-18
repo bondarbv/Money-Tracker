@@ -5,10 +5,10 @@ enum TransactionType {
     case expense
 }
 
-enum TransactionCategory {
-    case uncategorized
-    case groceries
-    case health
+enum TransactionCategory: String {
+    case uncategorized = "Uncategorized"
+    case groceries = "Groceries"
+    case health = "Health"
 }
 
 struct Transaction: Identifiable {
