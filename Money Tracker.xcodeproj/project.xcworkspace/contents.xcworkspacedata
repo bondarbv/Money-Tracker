@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/bohdan/Desktop/Money Tracker/Money Tracker.xcodeproj">
    </FileRef>
 </Workspace>

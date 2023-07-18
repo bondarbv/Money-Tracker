@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct Money_SaverApp: App {
+struct MoneyTrackerApp: App {
     var body: some Scene {
         WindowGroup {
             OnboardingScreen()

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		472390522A65CE8300F68B09 /* Money_SaverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472390512A65CE8300F68B09 /* Money_SaverApp.swift */; };
+		472390522A65CE8300F68B09 /* MoneyTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472390512A65CE8300F68B09 /* MoneyTrackerApp.swift */; };
 		472390542A65CE8300F68B09 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472390532A65CE8300F68B09 /* MainView.swift */; };
 		472390562A65CE8500F68B09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472390552A65CE8500F68B09 /* Assets.xcassets */; };
 		472390592A65CE8500F68B09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472390582A65CE8500F68B09 /* Preview Assets.xcassets */; };
@@ -18,8 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4723904E2A65CE8300F68B09 /* Money Saver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Money Saver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		472390512A65CE8300F68B09 /* Money_SaverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money_SaverApp.swift; sourceTree = "<group>"; };
+		4723904E2A65CE8300F68B09 /* Money Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Money Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		472390512A65CE8300F68B09 /* MoneyTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTrackerApp.swift; sourceTree = "<group>"; };
 		472390532A65CE8300F68B09 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		472390552A65CE8500F68B09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		472390582A65CE8500F68B09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		472390452A65CE8300F68B09 = {
 			isa = PBXGroup;
 			children = (
-				472390502A65CE8300F68B09 /* Money Saver */,
+				472390502A65CE8300F68B09 /* Money Tracker */,
 				4723904F2A65CE8300F68B09 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,12 +51,12 @@
 		4723904F2A65CE8300F68B09 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4723904E2A65CE8300F68B09 /* Money Saver.app */,
+				4723904E2A65CE8300F68B09 /* Money Tracker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		472390502A65CE8300F68B09 /* Money Saver */ = {
+		472390502A65CE8300F68B09 /* Money Tracker */ = {
 			isa = PBXGroup;
 			children = (
 				476014252A66929F00BFE07F /* Extensions */,
@@ -65,7 +65,7 @@
 				472390612A65D03D00F68B09 /* App */,
 				472390572A65CE8500F68B09 /* Preview Content */,
 			);
-			path = "Money Saver";
+			path = "Money Tracker";
 			sourceTree = "<group>";
 		};
 		472390572A65CE8500F68B09 /* Preview Content */ = {
@@ -79,7 +79,7 @@
 		472390612A65D03D00F68B09 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				472390512A65CE8300F68B09 /* Money_SaverApp.swift */,
+				472390512A65CE8300F68B09 /* MoneyTrackerApp.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -130,9 +130,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4723904D2A65CE8300F68B09 /* Money Saver */ = {
+		4723904D2A65CE8300F68B09 /* Money Tracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4723905C2A65CE8500F68B09 /* Build configuration list for PBXNativeTarget "Money Saver" */;
+			buildConfigurationList = 4723905C2A65CE8500F68B09 /* Build configuration list for PBXNativeTarget "Money Tracker" */;
 			buildPhases = (
 				4723904A2A65CE8300F68B09 /* Sources */,
 				4723904B2A65CE8300F68B09 /* Frameworks */,
@@ -142,9 +142,9 @@
 			);
 			dependencies = (
 			);
-			name = "Money Saver";
+			name = "Money Tracker";
 			productName = "Money Saver";
-			productReference = 4723904E2A65CE8300F68B09 /* Money Saver.app */;
+			productReference = 4723904E2A65CE8300F68B09 /* Money Tracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -162,7 +162,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 472390492A65CE8300F68B09 /* Build configuration list for PBXProject "Money Saver" */;
+			buildConfigurationList = 472390492A65CE8300F68B09 /* Build configuration list for PBXProject "Money Tracker" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -175,7 +175,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4723904D2A65CE8300F68B09 /* Money Saver */,
+				4723904D2A65CE8300F68B09 /* Money Tracker */,
 			);
 		};
 /* End PBXProject section */
@@ -201,7 +201,7 @@
 				472390542A65CE8300F68B09 /* MainView.swift in Sources */,
 				476014272A6692AD00BFE07F /* Color+.swift in Sources */,
 				472390692A65D35A00F68B09 /* OnboardingItem.swift in Sources */,
-				472390522A65CE8300F68B09 /* Money_SaverApp.swift in Sources */,
+				472390522A65CE8300F68B09 /* MoneyTrackerApp.swift in Sources */,
 				472390672A65D0E200F68B09 /* OnboardingScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,7 +330,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Money Saver/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Money Tracker/Preview Content\"";
 				DEVELOPMENT_TEAM = RU57DVXJU6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -344,7 +344,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "bohdan.bondar.Money-Saver";
+				PRODUCT_BUNDLE_IDENTIFIER = "bohdan.bondar.Money-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -359,7 +359,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Money Saver/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Money Tracker/Preview Content\"";
 				DEVELOPMENT_TEAM = RU57DVXJU6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -373,7 +373,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "bohdan.bondar.Money-Saver";
+				PRODUCT_BUNDLE_IDENTIFIER = "bohdan.bondar.Money-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -384,7 +384,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		472390492A65CE8300F68B09 /* Build configuration list for PBXProject "Money Saver" */ = {
+		472390492A65CE8300F68B09 /* Build configuration list for PBXProject "Money Tracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4723905A2A65CE8500F68B09 /* Debug */,
@@ -393,7 +393,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4723905C2A65CE8500F68B09 /* Build configuration list for PBXNativeTarget "Money Saver" */ = {
+		4723905C2A65CE8500F68B09 /* Build configuration list for PBXNativeTarget "Money Tracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4723905D2A65CE8500F68B09 /* Debug */,
