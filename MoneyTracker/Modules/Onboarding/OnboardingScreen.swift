@@ -21,6 +21,10 @@ struct OnboardingScreen: View {
     func page(for item: OnboardingItem) -> some View {
         VStack(alignment: .leading, spacing: 20) {
             Spacer()
+            Image(item.asset)
+                .resizable()
+                .scaledToFit()
+            Spacer()
             Text(item.title)
                 .font(.openSansBold())
                 .foregroundColor(.text)
