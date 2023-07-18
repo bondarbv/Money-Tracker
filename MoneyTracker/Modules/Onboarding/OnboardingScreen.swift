@@ -21,15 +21,18 @@ struct OnboardingScreen: View {
         VStack(alignment: .leading, spacing: 20) {
             Spacer()
             Text(item.title)
-                .font(.title)
+                .font(.openSansBold())
                 .foregroundColor(.text)
+                .kerning(0.5)
             Text(item.subtitle)
-                .font(.title2)
+                .font(.openSansMedium())
                 .foregroundColor(.text)
+                .kerning(0.5)
+                .frame(height: 66)
             button(isLast: item.isLast)
         }
         .padding(.horizontal, 20)
-        .padding(.bottom, 20)
+        .padding(.bottom, 32)
         .background(Color.onboardingBackground)
     }
 
@@ -45,11 +48,14 @@ struct OnboardingScreen: View {
         } label: {
             RoundedRectangle(cornerRadius: 10)
                 .fill(Color.onboardingButton)
-                .frame(height: 40)
-        }
-        .overlay {
-            Text(isLast ? "Start" : "Continue")
-                .foregroundColor(.white)
+                .frame(height: 50)
+                .shadow(radius: 5, y: 10)
+                .overlay {
+                    Text(isLast ? "Start" : "Continue")
+                        .font(.openSansSemiBold())
+                        .foregroundColor(.buttonTitle)
+                        .kerning(0.5)
+                }
         }
     }
 }
