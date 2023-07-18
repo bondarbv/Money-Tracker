@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct MainView: View {
+struct MainScreen: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -14,6 +14,6 @@ struct MainView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        MainView()
+        MainScreen()
     }
 }

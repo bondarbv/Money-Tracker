@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		472390522A65CE8300F68B09 /* MoneyTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472390512A65CE8300F68B09 /* MoneyTrackerApp.swift */; };
-		472390542A65CE8300F68B09 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472390532A65CE8300F68B09 /* MainView.swift */; };
+		472390542A65CE8300F68B09 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472390532A65CE8300F68B09 /* MainScreen.swift */; };
 		472390562A65CE8500F68B09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472390552A65CE8500F68B09 /* Assets.xcassets */; };
 		472390592A65CE8500F68B09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472390582A65CE8500F68B09 /* Preview Assets.xcassets */; };
 		472390602A65CF8100F68B09 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4723905F2A65CF8100F68B09 /* .gitignore */; };
@@ -16,6 +16,8 @@
 		472390692A65D35A00F68B09 /* OnboardingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472390682A65D35A00F68B09 /* OnboardingItem.swift */; };
 		476014272A6692AD00BFE07F /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476014262A6692AD00BFE07F /* Color+.swift */; };
 		4771E7FA2A66B41A0064EB7A /* LinearGradient+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4771E7F92A66B41A0064EB7A /* LinearGradient+.swift */; };
+		4771E7FF2A66B72F0064EB7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4771E7FE2A66B72F0064EB7A /* AppDelegate.swift */; };
+		4771E8012A66B8230064EB7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4771E8002A66B8230064EB7A /* SceneDelegate.swift */; };
 		47837ADD2A66A59700067AF5 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47837AD92A66A59700067AF5 /* OpenSans-SemiBold.ttf */; };
 		47837ADE2A66A59700067AF5 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47837ADA2A66A59700067AF5 /* OpenSans-Bold.ttf */; };
 		47837ADF2A66A59700067AF5 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47837ADB2A66A59700067AF5 /* OpenSans-Regular.ttf */; };
@@ -26,7 +28,7 @@
 /* Begin PBXFileReference section */
 		4723904E2A65CE8300F68B09 /* MoneyTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		472390512A65CE8300F68B09 /* MoneyTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTrackerApp.swift; sourceTree = "<group>"; };
-		472390532A65CE8300F68B09 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		472390532A65CE8300F68B09 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		472390552A65CE8500F68B09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		472390582A65CE8500F68B09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4723905F2A65CF8100F68B09 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -34,6 +36,8 @@
 		472390682A65D35A00F68B09 /* OnboardingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingItem.swift; sourceTree = "<group>"; };
 		476014262A6692AD00BFE07F /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		4771E7F92A66B41A0064EB7A /* LinearGradient+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinearGradient+.swift"; sourceTree = "<group>"; };
+		4771E7FE2A66B72F0064EB7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4771E8002A66B8230064EB7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		47837AD82A66A2B600067AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47837AD92A66A59700067AF5 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		47837ADA2A66A59700067AF5 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
@@ -93,6 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				472390512A65CE8300F68B09 /* MoneyTrackerApp.swift */,
+				4771E7FE2A66B72F0064EB7A /* AppDelegate.swift */,
+				4771E8002A66B8230064EB7A /* SceneDelegate.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -120,7 +126,7 @@
 		472390642A65D05300F68B09 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				472390532A65CE8300F68B09 /* MainView.swift */,
+				472390532A65CE8300F68B09 /* MainScreen.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -230,7 +236,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				472390542A65CE8300F68B09 /* MainView.swift in Sources */,
+				4771E7FF2A66B72F0064EB7A /* AppDelegate.swift in Sources */,
+				472390542A65CE8300F68B09 /* MainScreen.swift in Sources */,
+				4771E8012A66B8230064EB7A /* SceneDelegate.swift in Sources */,
 				476014272A6692AD00BFE07F /* Color+.swift in Sources */,
 				47837AE22A66A90000067AF5 /* Font+.swift in Sources */,
 				472390692A65D35A00F68B09 /* OnboardingItem.swift in Sources */,
