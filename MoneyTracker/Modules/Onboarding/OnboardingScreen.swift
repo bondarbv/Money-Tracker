@@ -29,7 +29,6 @@ struct OnboardingScreen: View {
                 .font(.openSansMedium())
                 .foregroundColor(.text)
                 .kerning(0.5)
-                .frame(height: 66)
             button(isLast: item.isLast)
         }
         .padding(.horizontal, 20)

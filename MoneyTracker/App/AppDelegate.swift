@@ -16,7 +16,6 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     ) -> UISceneConfiguration {
         let config = UISceneConfiguration(name: "SceneDelegate", sessionRole: connectingSceneSession.role)
         config.delegateClass = SceneDelegate.self
-        print("Scene")
         return config
     }
 }

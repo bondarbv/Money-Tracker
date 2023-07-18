@@ -13,12 +13,12 @@ extension OnboardingItem {
 
 extension OnboardingItem {
     static let firstPage =  OnboardingItem(
-        index: 0, title: "First title", subtitle: "First subtitle First subtitle First subtitle", isLast: false
+        index: 0, title: "Spending tracker", subtitle: "Tracking all spending and receiving", isLast: false
     )
     static let secondPage =  OnboardingItem(
-        index: 1, title: "Second title", subtitle: "Second subtitle Second subtitle Second subtitle", isLast: false
+        index: 1, title: "Save your money", subtitle: "Analyze statistics and optimize spending", isLast: false
     )
     static let thirdPage =  OnboardingItem(
-        index: 2, title: "Third subtitle", subtitle: "Third subtitle Third subtitle Third subtitle", isLast: true
+        index: 2, title: "Easy to use", subtitle: "Always know the current budget", isLast: true
     )
 }
