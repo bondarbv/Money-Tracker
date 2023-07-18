@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4709CC0D2A66C31C009C3D90 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709CC0C2A66C31C009C3D90 /* Coordinator.swift */; };
+		4709CC102A66C5DB009C3D90 /* ScreenBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709CC0F2A66C5DA009C3D90 /* ScreenBuilder.swift */; };
 		472390542A65CE8300F68B09 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472390532A65CE8300F68B09 /* MainScreen.swift */; };
 		472390562A65CE8500F68B09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472390552A65CE8500F68B09 /* Assets.xcassets */; };
 		472390592A65CE8500F68B09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472390582A65CE8500F68B09 /* Preview Assets.xcassets */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		4709CC0C2A66C31C009C3D90 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		4709CC0F2A66C5DA009C3D90 /* ScreenBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenBuilder.swift; sourceTree = "<group>"; };
 		4723904E2A65CE8300F68B09 /* MoneyTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		472390532A65CE8300F68B09 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		472390552A65CE8500F68B09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				4709CC0C2A66C31C009C3D90 /* Coordinator.swift */,
+				4709CC0F2A66C5DA009C3D90 /* ScreenBuilder.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				4771E8012A66B8230064EB7A /* SceneDelegate.swift in Sources */,
 				476014272A6692AD00BFE07F /* Color+.swift in Sources */,
 				47837AE22A66A90000067AF5 /* Font+.swift in Sources */,
+				4709CC102A66C5DB009C3D90 /* ScreenBuilder.swift in Sources */,
 				472390692A65D35A00F68B09 /* OnboardingItem.swift in Sources */,
 				472390672A65D0E200F68B09 /* OnboardingScreen.swift in Sources */,
 				4771E7FA2A66B41A0064EB7A /* LinearGradient+.swift in Sources */,

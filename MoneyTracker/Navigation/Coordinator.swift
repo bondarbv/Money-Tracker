@@ -2,14 +2,17 @@ import UIKit
 import SwiftUI
 
 final class Coordinator {
-    let navigationController = UINavigationController()
+    private let screenBuilder: ScreenBuilder
+    private let navigationController: UINavigationController
 
-    init() {
-        navigationController.navigationBar.isHidden = true
+    init(screenBuilder: ScreenBuilder) {
+        self.screenBuilder = screenBuilder
+        self.navigationController = screenBuilder.createNavigationController()
     }
 
-    func start() {
+    func start() -> UINavigationController {
         pushOnboardingScreen()
+        return navigationController
     }
 
     func pushOnboardingScreen() {
