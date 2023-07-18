@@ -15,6 +15,11 @@
 		472390672A65D0E200F68B09 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472390662A65D0E200F68B09 /* OnboardingScreen.swift */; };
 		472390692A65D35A00F68B09 /* OnboardingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472390682A65D35A00F68B09 /* OnboardingItem.swift */; };
 		476014272A6692AD00BFE07F /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476014262A6692AD00BFE07F /* Color+.swift */; };
+		47837ADD2A66A59700067AF5 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47837AD92A66A59700067AF5 /* OpenSans-SemiBold.ttf */; };
+		47837ADE2A66A59700067AF5 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47837ADA2A66A59700067AF5 /* OpenSans-Bold.ttf */; };
+		47837ADF2A66A59700067AF5 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47837ADB2A66A59700067AF5 /* OpenSans-Regular.ttf */; };
+		47837AE02A66A59700067AF5 /* OpenSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47837ADC2A66A59700067AF5 /* OpenSans-Medium.ttf */; };
+		47837AE22A66A90000067AF5 /* Font+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47837AE12A66A90000067AF5 /* Font+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +32,12 @@
 		472390662A65D0E200F68B09 /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
 		472390682A65D35A00F68B09 /* OnboardingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingItem.swift; sourceTree = "<group>"; };
 		476014262A6692AD00BFE07F /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
+		47837AD82A66A2B600067AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47837AD92A66A59700067AF5 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		47837ADA2A66A59700067AF5 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		47837ADB2A66A59700067AF5 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		47837ADC2A66A59700067AF5 /* OpenSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Medium.ttf"; sourceTree = "<group>"; };
+		47837AE12A66A90000067AF5 /* Font+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +98,8 @@
 		472390622A65D04200F68B09 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				47837ACF2A66A19700067AF5 /* Fonts */,
+				47837AD82A66A2B600067AF5 /* Info.plist */,
 				4723905F2A65CF8100F68B09 /* .gitignore */,
 				472390552A65CE8500F68B09 /* Assets.xcassets */,
 			);
@@ -123,8 +136,20 @@
 			isa = PBXGroup;
 			children = (
 				476014262A6692AD00BFE07F /* Color+.swift */,
+				47837AE12A66A90000067AF5 /* Font+.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		47837ACF2A66A19700067AF5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				47837ADB2A66A59700067AF5 /* OpenSans-Regular.ttf */,
+				47837ADC2A66A59700067AF5 /* OpenSans-Medium.ttf */,
+				47837AD92A66A59700067AF5 /* OpenSans-SemiBold.ttf */,
+				47837ADA2A66A59700067AF5 /* OpenSans-Bold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,8 +210,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47837AE02A66A59700067AF5 /* OpenSans-Medium.ttf in Resources */,
+				47837ADD2A66A59700067AF5 /* OpenSans-SemiBold.ttf in Resources */,
 				472390592A65CE8500F68B09 /* Preview Assets.xcassets in Resources */,
 				472390602A65CF8100F68B09 /* .gitignore in Resources */,
+				47837ADE2A66A59700067AF5 /* OpenSans-Bold.ttf in Resources */,
+				47837ADF2A66A59700067AF5 /* OpenSans-Regular.ttf in Resources */,
 				472390562A65CE8500F68B09 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,6 +229,7 @@
 			files = (
 				472390542A65CE8300F68B09 /* MainView.swift in Sources */,
 				476014272A6692AD00BFE07F /* Color+.swift in Sources */,
+				47837AE22A66A90000067AF5 /* Font+.swift in Sources */,
 				472390692A65D35A00F68B09 /* OnboardingItem.swift in Sources */,
 				472390522A65CE8300F68B09 /* MoneyTrackerApp.swift in Sources */,
 				472390672A65D0E200F68B09 /* OnboardingScreen.swift in Sources */,
@@ -334,6 +364,8 @@
 				DEVELOPMENT_TEAM = RU57DVXJU6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoneyTracker/Resources/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -363,6 +395,8 @@
 				DEVELOPMENT_TEAM = RU57DVXJU6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoneyTracker/Resources/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
